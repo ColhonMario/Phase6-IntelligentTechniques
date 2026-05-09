@@ -17,7 +17,10 @@ import app_common as common
 # pipeline.py next to this file, then import it.
 from pipeline import adapt_sparkov_to_ieee_schema, run_phase4_pipeline
 
-ARTIFACT_DIR = Path(os.environ.get("PHASE5_ARTIFACTS", "./app_artifacts"))
+ARTIFACT_DIR = Path(os.environ.get(
+    "PHASE5_ARTIFACTS",
+    str(Path(__file__).parent / "app_artifacts")
+))
 
 st.set_page_config(
     page_title="Fraud Detection — Phase 5",
