@@ -5,7 +5,7 @@ Sparkov simulated transaction dataset (~1.85M rows, ~0.5 % fraud rate, Jan 2019 
 Dec 2020), served as an interactive Streamlit app with both single-transaction
 and batch-scoring workflows.
 
-> **Live demo:** *https://your-app-name.streamlit.app* (replace after deploying)
+> **Live demo:** *https://phase6-intelligenttechniques-uokvebhteubzmlcx6fzm8p.streamlit.app/* 
 
 ---
 
