@@ -1,0 +1,9 @@
+{
+  "threshold": 0.5799999999999997,
+  "auc_test": 0.9988089012903523,
+  "ap_test": 0.9248211486339092,
+  "fraud_rate_train": 0.005210150379745127,
+  "split_used": "Mode B-random (stratified 80/20 split)",
+  "n_features": 34,
+  "imbalance_ratio": 190.9330397616889
+}

@@ -1,0 +1,30 @@
+{
+  "required_inputs": [
+    "amt",
+    "trans_date_trans_time"
+  ],
+  "optional_inputs": [
+    "category",
+    "cc_num",
+    "merchant",
+    "zip",
+    "lat",
+    "long",
+    "merch_lat",
+    "merch_long"
+  ],
+  "raw_input_importance": {
+    "amt": 0.5766706811264157,
+    "cc_num": 0.05332537926733494,
+    "category": 0.06047619506716728,
+    "merchant": 0.04030307661741972,
+    "zip": 0.033298871014267206,
+    "trans_date_trans_time": 0.24781303061172366,
+    "lat": 0.0030488159973174334,
+    "long": 0.0030488159973174334,
+    "merch_lat": 0.0030488159973174334,
+    "merch_long": 0.0030488159973174334
+  },
+  "required_share": 0.805095012945746,
+  "optional_share": 0.19490498705425402
+}

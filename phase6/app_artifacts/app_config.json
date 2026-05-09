@@ -1,0 +1,80 @@
+{
+  "real_categories": [
+    "entertainment",
+    "food_dining",
+    "gas_transport",
+    "grocery_net",
+    "grocery_pos",
+    "health_fitness",
+    "home",
+    "kids_pets",
+    "misc_net",
+    "misc_pos",
+    "personal_care",
+    "shopping_net",
+    "shopping_pos",
+    "travel"
+  ],
+  "scenarios": {
+    "\ud83d\uded2 Normal grocery": {
+      "amt": 48.47,
+      "trans_date_trans_time": "2020-08-04 23:49:28",
+      "category": "grocery_pos",
+      "merchant": "fraud_Padberg-Welch",
+      "cc_num": "6011366578560244",
+      "zip": "17051",
+      "lat": 40.5046,
+      "long": -77.7186,
+      "merch_lat": 41.402008,
+      "merch_long": -77.19340799999999
+    },
+    "\ud83d\udcbb Suspicious online": {
+      "amt": 804.03,
+      "trans_date_trans_time": "2020-04-17 23:42:07",
+      "category": "shopping_net",
+      "merchant": "fraud_Kuhic LLC",
+      "cc_num": "30263540414123",
+      "zip": "84735",
+      "lat": 37.7175,
+      "long": -112.4777,
+      "merch_lat": 38.62377,
+      "merch_long": -111.598666
+    },
+    "\u26fd Local gas station": {
+      "amt": 51.45,
+      "trans_date_trans_time": "2019-07-07 06:26:47",
+      "category": "gas_transport",
+      "merchant": "fraud_Kutch LLC",
+      "cc_num": "3560797065840735",
+      "zip": "58569",
+      "lat": 46.1838,
+      "long": -101.2589,
+      "merch_lat": 45.881009999999996,
+      "merch_long": -100.654758
+    },
+    "\ud83c\udf03 Suspicious late-night": {
+      "amt": 829.06,
+      "trans_date_trans_time": "2020-05-03 00:41:38",
+      "category": "misc_net",
+      "merchant": "fraud_Greenfelder, Bartoletti and Davis",
+      "cc_num": "30446018552504",
+      "zip": "74720",
+      "lat": 33.8396,
+      "long": -96.3648,
+      "merch_lat": 33.478228,
+      "merch_long": -95.778941
+    }
+  },
+  "top_merchants": [
+    "fraud_Kilback LLC",
+    "fraud_Cormier LLC",
+    "fraud_Schumm PLC",
+    "fraud_Kuhn LLC",
+    "fraud_Boyer PLC",
+    "fraud_Dickinson Ltd",
+    "fraud_Emard Inc",
+    "fraud_Cummerata-Jones",
+    "fraud_Corwin-Collins",
+    "fraud_Rodriguez Group"
+  ]
+}

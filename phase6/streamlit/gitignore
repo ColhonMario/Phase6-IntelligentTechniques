@@ -1,0 +1,46 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Local secrets / env
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Local artifacts NOT committed to the repo
+# (For Streamlit Cloud, app_artifacts/ MUST be committed — comment these
+#  out if your trained model files are small enough to track in Git.
+#  If they are large, use Git LFS or load from external storage.)
+# app_artifacts/raw_data/
+# app_artifacts/*.csv
+
+# Dataset (never commit raw Sparkov / IEEE-CIS data)
+data/
+*.csv.gz
+*.parquet
